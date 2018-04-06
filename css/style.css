@@ -1,0 +1,152 @@
+body {
+    background: rgba(158, 158, 94, 0.473);
+    font-size: 60px;
+
+    min-width: 1200px;
+  }
+  .title {
+    font-size: 25px;
+    color: rgb(230, 255, 130);
+    text-align: center;
+  }
+  .container {
+
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    
+  }
+  .box {
+    padding: 25px;
+    margin: 15px;
+    background: rgba(28, 228, 145, 0.616);
+    border-radius: 40px;
+    text-align: center;
+  }
+  .timer {
+    width: 475px;
+  }
+  .timer:hover {
+    background: rgb(137, 217, 63);
+    cursor: pointer;
+  }
+  #sessionTitle {
+    padding: 0px;
+    margin: 10px;
+  }
+  .clockBox {
+    font-size: 100px;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+  }
+  .control {
+    font-size: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .set {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .begin {
+    font-size: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  button {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border: none;
+    font-size: 60px;
+    cursor: pointer;
+  }
+  .previewBox {
+    text-align: center;
+    height: 0;
+  }
+  button#preview {
+    position: relative;
+    top: -40px;
+    font-size: 16px;
+    height: 25px;
+    width: 250px;
+    background: none;
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  button#preview:hover {
+    color: rgb(137, 217, 63);
+  }
+  button.increase {
+    background: rgb(117, 236, 87);
+    color: rgb(153, 118, 118);
+    border-radius: 50px;
+  }
+  button.decrease {
+    background: rgb(228, 110, 75);
+    color: rgb(153, 118, 118);
+    border-radius: 50px;
+  }
+  button:hover {
+    background: rgb(137, 217, 63);
+    color: rgb(153, 118, 118);
+  }
+  button:focus {
+    outline: none;
+  }
+  .refresh {
+    text-align: center;
+    
+  }
+  button#restart {
+    width: 200px;
+    height: 65px;
+    font-size: 25px;
+    background: rgb(150, 217, 63);
+  }
+  button#restart:hover {
+    background: rgb(137, 217, 63);
+    color: rgb(153, 118, 118);
+  }
+  button#restart:disabled {
+    color: rgb(153, 118, 118);
+  }
+  .credits {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .credits a,
+  .credits a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  .credits a:hover {
+    color: rgb(137, 217, 63);
+  }
+  .pomodoro,
+  .pomodoro a,
+  .pomodoro a:visited {
+    font-size: 14px;
+    text-align: center;
+    color: black;
+  }
+  .pomodoro a:hover {
+    color: rgb(137, 217, 63);
+  }
+  button#reload {
+    visibility: none;
+    display: none;
+  }
